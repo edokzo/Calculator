@@ -1,0 +1,100 @@
+.container{
+    width: 1040px;
+    height: 700px;
+    background: #082c6c; 
+    margin: auto;
+}
+.nav{
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    color: #fff; 
+}
+.player{
+    
+    display: flex; 
+    width: 62vw; 
+    justify-content: center;
+    top: 70px;
+    gap: 100px;
+    
+   
+}
+.player2{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.player2 p{
+    font-size: 24px;
+}
+.player3{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.player3 p{
+    font-size: 24px;
+}
+.nav2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+   
+    font-weight: bold;
+    color: #fff;    
+    font-size: 35px;
+    
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    top: 430px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    left: 750px;
+    
+}
+.nav4{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 70px;
+    
+    
+}
+.Rock{
+    background: green;
+    padding: 12px 42px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.Paper{
+    padding: 12px 42px;
+    background: green;
+    color:white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.Scissors{
+    padding: 12px 42px;
+    background: green;
+    color: white ;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.reload { 
+    display: none; 
+    margin-top: 2rem; 
+    padding: 1rem; 
+    background: green; 
+    outline: none; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+}
